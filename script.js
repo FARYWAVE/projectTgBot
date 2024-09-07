@@ -3,6 +3,7 @@ const decreaseButton = document.getElementById('decrease');
 const increaseButton = document.getElementById('increase');
 let value = parseInt(h2Element.textContent, 10);
 const button = document.getElementById('start');
+const chance = document.getElementById('chance');
 let loadingInProgress = false;
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -134,6 +135,7 @@ window.onload = function() {
             await sleep(300);
             await show();
             button.textContent = 'Получить сигнал';
+            chance.textContent = getRandomInt(810, 999) / 10 + '%';
             loadingInProgress = false;
         }
     }

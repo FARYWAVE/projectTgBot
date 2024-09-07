@@ -6,6 +6,38 @@ body {
     background-size: cover;
 }
 
+.winchance {
+    margin: 1.5vh 5vw 0vh 5vw;
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: row;
+}
+
+.winchance h3 {
+    margin: 0vh 1.5vw 0vh 0vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 5vw;
+    color: white;
+}
+
+.winchance button {
+    padding: 0vh 0vw 0vw 0vw;
+    border-radius: 3.5vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(23, 35, 59);
+    font-size: 4.5vw;
+    color: rgb(151, 163, 201);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0;
+}
+
 .head {
     background: linear-gradient(to right, rgb(20, 27, 46), rgb(18, 25, 44)); /* Gradient from left to right */
     margin: 2vh 5vw 2vh 5vw;
@@ -54,7 +86,7 @@ body {
 }
 
 .trapsCntSelector {
-    margin: 2vh 5vw 2vh 5vw;
+    margin: 1.5vh 5vw 2vh 5vw;
     height: 7vh;
     width: 90%;
     background-color: rgb(10, 13, 44);
