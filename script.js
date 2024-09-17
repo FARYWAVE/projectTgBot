@@ -14,7 +14,7 @@ async function sleep(ms) {
 }
 
 decreaseButton.addEventListener('click', () => {
-    if (value > 1) {
+    if (value > 3) {
         value -= 2;
         h2Element.textContent = value;
     }
